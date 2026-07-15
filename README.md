@@ -2,6 +2,14 @@
 
 Poll a copied **cURL** or **JavaScript `fetch(...)`** request from browser DevTools, deep-diff the response, and fire a native desktop notification when it changes.
 
+## Quick use via npx
+
+```bash
+npx fetchwatch
+```
+
+Runs the published CLI without a global install.
+
 ## Requirements
 
 - Node.js **21+**

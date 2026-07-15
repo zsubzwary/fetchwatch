@@ -1,6 +1,6 @@
 {
   "name": "fetchwatch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Poll a copied cURL or fetch request and get notified when the response changes",
   "type": "module",
   "bin": {
