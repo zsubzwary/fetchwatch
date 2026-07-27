@@ -5,7 +5,7 @@ Poll a copied **cURL** or **JavaScript `fetch(...)`** request from browser DevTo
 ## Quick use via npx
 
 ```bash
-npx fetchwatch
+npx -y fetchwatch
 ```
 
 Runs the published CLI without a global install.
@@ -44,7 +44,7 @@ npm unlink -g fetchwatch
 ## How to use
 
 1. Open DevTools → Network → copy as **cURL** or **fetch**.
-2. Run `fetchwatch` (or `npx fetchwatch` after publish).
+2. Run `fetchwatch` (or `npx -y fetchwatch` after publish).
 3. Paste the request and press **Enter on an empty line** to finish the paste.
 4. Choose a polling interval in **seconds** (default `120`). While typing, the prompt shows the equivalent in minutes (e.g. `120s = 2.0 min`).
 5. Optionally ignore minor dynamic JSON fields (timestamps, nonces, request IDs, etc.).
@@ -57,7 +57,7 @@ npm unlink -g fetchwatch
 - Type or paste your request at the `>` prompt.
 - Finish by pressing **Enter** on a blank line (i.e. Enter twice at the end).
 
-## Publish for `npx fetchwatch`
+## Publish for `npx -y fetchwatch`
 
 1. Update `version` in `package.json` if needed.
 2. Log in to npm: `npm login`
@@ -72,7 +72,7 @@ npm publish
 Users can then run:
 
 ```bash
-npx fetchwatch
+npx -y fetchwatch
 ```
 
 ## Scripts
